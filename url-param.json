@@ -17,7 +17,7 @@
         "localStorage.getItem",
         "localStorage.setItem",
         "sessionStorage.getItem",
-        "sessionStorage.setItem"
+        "sessionStorage.Item"
       ]
     }
   },
