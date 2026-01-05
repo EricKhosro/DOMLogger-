@@ -29,6 +29,26 @@
     "PSTMSG": {
       "function": ["window.postMessage"],
       "event": ["message"]
+    },
+    "URL params": {
+      "function": [
+        "URLSearchParams.prototype.get",
+        "URLSearchParams.prototype.getAll",
+        "URLSearchParams.prototype.has",
+        "URLSearchParams",
+        "ReadonlyURLSearchParams.prototype.get",
+        "ReadonlyURLSearchParams.prototype.getAll",
+        "ReadonlyURLSearchParams.prototype.has",
+        "useSearchParams"
+      ]
+    },
+    "storage": {
+      "function": [
+        "localStorage.getItem",
+        "localStorage.setItem",
+        "sessionStorage.getItem",
+        "sessionStorage.setItem"
+      ]
     }
   },
   "config": {}
